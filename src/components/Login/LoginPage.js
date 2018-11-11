@@ -39,7 +39,7 @@ class LoginPage extends Component
             let upswd=this.state.password;
             const name=evt.target.name;
             const value=evt.target.value;
-            axios.post(`http://180.179.151.146/IDAUTH/login.aspx?UserId=${uname}&Password=${upswd}&Provider=TRUEDATA`)
+            axios.post(`http://example server?UserId=${uname}&Password=${upswd}`)
                 .then((response) =>{const userkey= response.data;
                     const keyValue=userkey.split('\n')[0];
                     console.log(keyValue)
