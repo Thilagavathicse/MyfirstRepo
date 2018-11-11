@@ -1,0 +1,38 @@
+.form_cont{
+    width:450px;
+    height:300px;
+    background-color:rgba(28, 29, 30,0.4);
+    display:inline-block;
+    border-radius:5px;
+    margin-top: 75px;
+}
+.field{
+    width:90%;
+    height:50px;
+    font-size:20px;
+    color:#404244;
+    padding:10px 15px;
+    border-radius:20px;
+    margin-bottom:10px;
+}
+.btn
+{
+    width:90%;
+    height:50px;
+    font-size:20px;
+    color:white;
+    background-color:#30c1dd;
+    padding:10px 10px;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+.error-text
+{
+    font-family: Arial;
+    font-size:20px;
+    color: red;
+}
+.err-btn
+{
+    border-radius: 2px;
+}

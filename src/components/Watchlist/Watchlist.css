@@ -1,0 +1,23 @@
+.style
+{
+    text-align:center;
+}
+
+.panel-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-basis: auto;
+    height: 0px;
+    overflow: auto;
+}
+.watch-title{
+    color: black;
+}
+.background
+{
+   background: white;
+}
+.row-BG
+{
+}

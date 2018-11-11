@@ -1,0 +1,7 @@
+.test
+{
+    border-image: url("/src/logo.jpg");
+    padding-right: 116px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+}
